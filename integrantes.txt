@@ -1,0 +1,15 @@
+Practica 2 Vue3
+Nombre(s) de integrante(s):
+- Jhoselin Huanca Torrez
+Pasos para iniciar el proyecto
+1) npm install
+2) npm run serve
+
+Sistema: PARA TI - Tienda de regalos (catálogo + reservas)
+- Frontend: http://localhost:8080
+- API (json-server): http://localhost:3000 (el frontend la usa a través de /api)
+- También se puede abrir sin instalar nada con GitHub Codespaces:
+  Code > Codespaces > Create codespace on main
+- Usuario de prueba para el panel de administración:
+    correo: admin@parati.com
+    contraseña: admin123

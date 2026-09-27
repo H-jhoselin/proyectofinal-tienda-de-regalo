@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Administrador",
+      "email": "admin@parati.com",
+      "password": "admin123"
+    }
+  ],
+  "ocasiones": [
+    { "id": 1, "nombre": "Cumpleaños", "icono": "🎂", "descripcion": "Detalles para celebrar un año más de vida." },
+    { "id": 2, "nombre": "San Valentín", "icono": "💘", "descripcion": "Regalos románticos para el 14 de febrero." },
+    { "id": 3, "nombre": "Día de la Madre", "icono": "💐", "descripcion": "Para consentir a mamá en su día." },
+    { "id": 4, "nombre": "Navidad", "icono": "🎄", "descripcion": "Sorpresas para compartir en fiestas de fin de año." },
+    { "id": 5, "nombre": "Aniversario", "icono": "💍", "descripcion": "Para celebrar el amor y los años juntos." },
+    { "id": 6, "nombre": "Graduación", "icono": "🎓", "descripcion": "Reconocimientos para un gran logro académico." }
+  ],
+  "regalos": [
+    { "id": 1, "nombre": "Caja sorpresa de cumpleaños", "descripcion": "Caja decorada con globos, chocolates y tarjeta personalizada.", "precio": 120, "stock": 8, "imagen": "", "ocasionId": 1 },
+    { "id": 2, "nombre": "Taza personalizada", "descripcion": "Taza de cerámica con foto y mensaje a elección.", "precio": 45, "stock": 25, "imagen": "", "ocasionId": 1 },
+    { "id": 3, "nombre": "Peluche oso con corazón", "descripcion": "Oso de peluche de 40 cm con corazón bordado.", "precio": 85, "stock": 12, "imagen": "", "ocasionId": 2 },
+    { "id": 4, "nombre": "Ramo de 12 rosas", "descripcion": "Rosas rojas naturales con envoltura elegante.", "precio": 150, "stock": 6, "imagen": "", "ocasionId": 2 },
+    { "id": 5, "nombre": "Desayuno sorpresa", "descripcion": "Bandeja con jugo, frutas, sándwich, café y globo.", "precio": 180, "stock": 5, "imagen": "", "ocasionId": 3 },
+    { "id": 6, "nombre": "Arreglo floral con chocolates", "descripcion": "Canasta de flores mixtas con bombones finos.", "precio": 210, "stock": 4, "imagen": "", "ocasionId": 3 },
+    { "id": 7, "nombre": "Canasta navideña", "descripcion": "Panetón, chocolate caliente, galletas y adornos.", "precio": 250, "stock": 10, "imagen": "", "ocasionId": 4 },
+    { "id": 8, "nombre": "Esfera personalizada", "descripcion": "Esfera navideña con el nombre grabado.", "precio": 35, "stock": 0, "imagen": "", "ocasionId": 4 },
+    { "id": 9, "nombre": "Cuadro de pareja", "descripcion": "Cuadro con foto, fecha especial y frase grabada.", "precio": 130, "stock": 7, "imagen": "", "ocasionId": 5 },
+    { "id": 10, "nombre": "Peluche graduado", "descripcion": "Osito con birrete y diploma, ideal para la foto.", "precio": 70, "stock": 15, "imagen": "", "ocasionId": 6 }
+  ],
+  "reservas": [
+    { "id": 1, "cliente": "Ana Gutiérrez", "telefono": "71234567", "fechaRecojo": "2026-10-03", "cantidad": 1, "dedicatoria": "¡Feliz cumpleaños, hermanita!", "estado": "pendiente", "regaloId": 1, "creadaEn": "2026-09-25T14:20:00.000Z" },
+    { "id": 2, "cliente": "Carlos Mendoza", "telefono": "76543210", "fechaRecojo": "2026-10-05", "cantidad": 2, "dedicatoria": "", "estado": "confirmada", "regaloId": 2, "creadaEn": "2026-09-26T10:05:00.000Z" },
+    { "id": 3, "cliente": "Lucía Rojas", "telefono": "69988776", "fechaRecojo": "2026-09-20", "cantidad": 1, "dedicatoria": "Para la mejor mamá del mundo", "estado": "entregada", "regaloId": 5, "creadaEn": "2026-09-15T16:40:00.000Z" }
+  ]
+}

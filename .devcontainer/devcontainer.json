@@ -1,0 +1,16 @@
+{
+  "name": "PARA TI - Tienda de regalos",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+  "postAttachCommand": "npm run serve",
+  "forwardPorts": [8080, 3000],
+  "portsAttributes": {
+    "8080": { "label": "Frontend (Vue)", "onAutoForward": "openBrowser" },
+    "3000": { "label": "API (json-server)", "onAutoForward": "silent" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["Vue.volar", "bradlc.vscode-tailwindcss"]
+    }
+  }
+}
